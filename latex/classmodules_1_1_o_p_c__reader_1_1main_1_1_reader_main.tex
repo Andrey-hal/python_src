@@ -1,0 +1,79 @@
+\hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main}{}\doxysection{modules.\+O\+P\+C\+\_\+reader.\+main.\+Reader\+Main Class Reference}
+\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main}\index{modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a70ce073cefd0aa752d8b5de23e763e2a}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a70ce073cefd0aa752d8b5de23e763e2a}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, ip=None, port=None)
+\item 
+def \mbox{\hyperlink{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_ad1a81eca990ac4ec051e24f612bb93da}{connect\+\_\+to\+\_\+server}} (self, server\+\_\+name=None)
+\item 
+def \mbox{\hyperlink{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a34b9dc7e830e9b5b7148c9bf524811cc}{write\+\_\+to\+\_\+base}} (self, frame)
+\item 
+def \mbox{\hyperlink{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a7784118b2e429a817f2185f0740ca0fa}{read}} (self)
+\item 
+def \mbox{\hyperlink{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a0b1c611cfc8bd0584ad97131137d818b}{start}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_aee88ea8226cfb69be30f6bbf4ff02132}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_aee88ea8226cfb69be30f6bbf4ff02132}} 
+{\bfseries server\+\_\+name}
+\item 
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a350f3318aedd1273490631ec2d274b82}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a350f3318aedd1273490631ec2d274b82}} 
+{\bfseries opc}
+\item 
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_aa9056b32eeccf6b016db08ac757a68b1}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_aa9056b32eeccf6b016db08ac757a68b1}} 
+{\bfseries client}
+\item 
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a3b77f725bc14026d3d92f76087e18e4a}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a3b77f725bc14026d3d92f76087e18e4a}} 
+{\bfseries read\+\_\+structure}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Класс ридера openOPC сервиса
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_ad1a81eca990ac4ec051e24f612bb93da}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_ad1a81eca990ac4ec051e24f612bb93da}} 
+\index{modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}!connect\_to\_server@{connect\_to\_server}}
+\index{connect\_to\_server@{connect\_to\_server}!modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}}
+\doxysubsubsection{\texorpdfstring{connect\_to\_server()}{connect\_to\_server()}}
+{\footnotesize\ttfamily def modules.\+O\+P\+C\+\_\+reader.\+main.\+Reader\+Main.\+connect\+\_\+to\+\_\+server (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{server\+\_\+name = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Подключение к OPC серверу через openOPC Gateway.
+:param server_name: Имя OPC сервера.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a7784118b2e429a817f2185f0740ca0fa}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a7784118b2e429a817f2185f0740ca0fa}} 
+\index{modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}!read@{read}}
+\index{read@{read}!modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily def modules.\+O\+P\+C\+\_\+reader.\+main.\+Reader\+Main.\+read (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Цикл чтения из openOPC Gateway
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a0b1c611cfc8bd0584ad97131137d818b}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a0b1c611cfc8bd0584ad97131137d818b}} 
+\index{modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}!start@{start}}
+\index{start@{start}!modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily def modules.\+O\+P\+C\+\_\+reader.\+main.\+Reader\+Main.\+start (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Подключение к серверу и запуск чтения значений
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a34b9dc7e830e9b5b7148c9bf524811cc}\label{classmodules_1_1_o_p_c__reader_1_1main_1_1_reader_main_a34b9dc7e830e9b5b7148c9bf524811cc}} 
+\index{modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}!write\_to\_base@{write\_to\_base}}
+\index{write\_to\_base@{write\_to\_base}!modules.OPC\_reader.main.ReaderMain@{modules.OPC\_reader.main.ReaderMain}}
+\doxysubsubsection{\texorpdfstring{write\_to\_base()}{write\_to\_base()}}
+{\footnotesize\ttfamily def modules.\+O\+P\+C\+\_\+reader.\+main.\+Reader\+Main.\+write\+\_\+to\+\_\+base (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{frame }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Запись считанных из openOPC Gateway данных
+:param frame: "Кадр" в формате (Имя из OPC, значение, ...)
+:return:
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/\+O\+P\+C\+\_\+reader/main.\+py\end{DoxyCompactItemize}

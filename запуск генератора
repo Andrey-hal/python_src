@@ -1,0 +1,5 @@
+@echo off 
+chcp 65001
+cd "%~dp0"
+net stop SphereDiagnosis
+"%~dp0..\..\bin\Python\python.exe" -m Data_generator

@@ -1,0 +1,28 @@
+[general] | 2020-03-04 10:37:07,282 | DEBUG | > NoneType: None
+
+[general] | 2020-03-04 10:37:07,282 | ERROR | > Ошибка запуска сервиса db, Неизвестная ошибка..
+[general] | 2020-03-04 10:48:12,033 | DEBUG | > NoneType: None
+
+[general] | 2020-03-04 10:48:12,033 | ERROR | > Ошибка запуска сервиса db, Неизвестная ошибка..
+[general] | 2020-03-04 10:48:31,152 | DEBUG | > NoneType: None
+
+[general] | 2020-03-04 10:48:31,153 | ERROR | > Ошибка запуска сервиса db, Неизвестная ошибка..
+[general] | 2020-03-04 10:50:07,979 | DEBUG | > NoneType: None
+
+[general] | 2020-03-04 10:50:07,979 | ERROR | > Ошибка запуска сервиса db, Неизвестная ошибка..
+[general] | 2020-03-04 11:32:26,153 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 11:41:04,546 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 11:45:06,262 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 13:18:00,695 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 13:18:52,836 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 13:22:31,392 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 13:42:42,914 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 14:32:40,843 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 14:37:44,654 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 14:55:38,518 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 14:55:50,964 | ERROR | > Ошибка запуска модуля opc_reader, Ошибка подключения к openOPC Gateway. Проверьте состояние сервиса zzzOpenOPCService.
+[general] | 2020-03-04 16:36:47,643 | CRITICAL | > Невозможно подключиться к базе данных. Возможна она не запущена или неправильно указаны настройки подключения.
+[general] | 2020-03-04 16:44:56,127 | ERROR | > Ошибка запуска модуля python_calc, Ошибка инициализации, выход....
+[general] | 2020-03-04 16:49:33,293 | ERROR | > Ошибка запуска модуля python_calc, Ошибка инициализации, выход....
+[general] | 2020-03-04 16:53:19,042 | ERROR | > Ошибка запуска модуля python_calc, Ошибка инициализации, выход....
+[general] | 2020-03-05 09:03:12,174 | ERROR | > Ошибка запуска модуля python_calc, Ошибка инициализации, выход....
